@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const cors = require("cors");
 app.use(cors());
-//DB connect
 connectDB();
 
 app.get("/", (req, res) => {
