@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/user";
+const API_URL = "https://supportdesk-qeoc.onrender.com/api/user";
 
 const register = async (formData) => {
   const response = await axios.post(API_URL, formData);

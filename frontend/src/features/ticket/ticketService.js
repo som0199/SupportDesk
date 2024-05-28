@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/ticket";
+const API_URL = "https://supportdesk-qeoc.onrender.com/api/ticket";
 
 const addTicket = async (formData, token) => {
   const options = {
@@ -41,7 +41,10 @@ const fetchAllUsersTickets = async (token) => {
       Authorization: `Bearer ${token}`,
     },
   };
-  const response = await axios.get("/api/admin/tickets", options);
+  const response = await axios.get(
+    "https://supportdesk-qeoc.onrender.com/api/admin/tickets",
+    options
+  );
   return response.data;
 };
 

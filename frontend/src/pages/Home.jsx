@@ -35,7 +35,7 @@ const Home = () => {
             {" "}
             {user?.name}
           </strong>{" "}
-          To Support App
+          To Ticket Ease
         </h3>
         {isAdmin ? (
           <Link
