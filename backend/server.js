@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 5000;
 //body parser
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(require("cors"));
 const cors = require("cors");
 cors();
 //DB connect
