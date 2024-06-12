@@ -29,7 +29,7 @@ const AllTickets = () => {
   }
   console.log(tickets);
   return (
-    <div className="container p-5">
+    <div className="container py-5">
       <BackButton url={"/"} />
 
       {tickets.length === 0 ? (
@@ -40,7 +40,7 @@ const AllTickets = () => {
         </div>
       ) : (
         <>
-          <div className="card rounded-0 p-5">
+          <div className=" rounded-0 p-5">
             <h3 className="text-center">All Tickets</h3>
 
             <table class="table">
