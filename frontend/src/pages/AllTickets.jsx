@@ -40,7 +40,7 @@ const AllTickets = () => {
         </div>
       ) : (
         <>
-          <div className="card rounded-0 p-3">
+          <div className="card rounded-0 p-5">
             <h3 className="text-center">All Tickets</h3>
 
             <table class="table">
